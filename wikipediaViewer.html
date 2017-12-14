@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Build a Wikipedia Viewer</title>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" type="text/css" href="wikipediaViewer.css">
+</head>
+<body>
+<div id="container" class="initialLoc">
+	<a id="randomSearch" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a>
+	<div id="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+	<input id="searchMessage" type="search" placeholder="Search..." title="Search for a Wikipedia article">
+	<div id="searchResults"></div>
+</div>
+
+	<script type="text/javascript" src="wikipediaViewer.js"></script>
+</body>
+</html>

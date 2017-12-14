@@ -1,0 +1,72 @@
+*{
+	font-family: 'Cabin Condensed', sans-serif;
+	letter-spacing: 1.2px;
+}
+
+body {
+	background: hsla(203, 100%, 50%, 1);
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+	color: hsla(202, 100%, 24%, 1);
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+.fa-search {
+	font-size: 3.5em;
+	color: hsla(20, 100%, 80%, 1);
+}
+
+.searchBox {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	width: 800px;
+	border-radius: 10px;
+	background: hsla(20, 100%, 80%, 1);
+}
+
+.initialLoc {
+	margin: 200px auto;
+	height: 100%;
+}
+
+#randomSearch {
+	display: block;
+	font-size: 1.3em;
+	font-weight: bold;
+	width: 270px;
+	margin: 30px auto 20px auto;
+	text-decoration: none;
+	text-align: center;
+}
+
+#searchMessage {
+	display: block;
+	margin: 20px auto 30px auto;
+	height: 30px;
+	border-radius: 20px;
+	outline: none;
+	width: 200px;
+	padding: 10px;
+}
+
+#icon {
+	margin: 0 auto;
+	width: 50px;
+}
+
+#container {
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#searchResults {
+	display: none;
+}
